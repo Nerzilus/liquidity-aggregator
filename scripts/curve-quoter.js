@@ -60,7 +60,7 @@ async function main(token0, token1) {
     const tokenOutAddress = SETH_ADDRESS;
 
     const poolAddresses = await registry.find_pools_for_coins(tokenInAddress, tokenOutAddress);
-    console.log(poolAddresses);
+
     let bestAmount = 0;
     let bestPoolName = "";
     for (let i = 0; i < poolAddresses.length; i++) {
