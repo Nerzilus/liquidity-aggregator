@@ -1,0 +1,41 @@
+Arguments: 
+  /home/nerzil/.nvm/versions/node/v20.9.0/bin/node /home/nerzil/.nvm/versions/node/v20.9.0/bin/yarn add ethers @5.7
+
+PATH: 
+  /home/nerzil/.nvm/versions/node/v20.9.0/bin:/home/nerzil/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Java:/mnt/c/Program Files/Java/jdk-20/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Java/jre1.8.0_361/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Java/jdk-20/bin:/mnt/c/Users/Pichau/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Pichau/Desktop/Work/Javao/spring-boot/apache-maven-3.9.2/bin:/mnt/c/Windows/System32:/mnt/c/Users/Pichau/AppData/Local/Yarn/bin:/mnt/c/Program Files (x86)/Yarn:/mnt/c/users/pichau/.local/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@5.7: Request "https://registry.yarnpkg.com/@5.7" returned a 405
+      at params.callback [as _callback] (/home/nerzil/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at self.callback (/home/nerzil/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/home/nerzil/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/home/nerzil/.nvm/versions/node/v20.9.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "liquidity-aggregator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
